@@ -54,7 +54,7 @@ function cliqueDroit() {
 		}
 		tableauPoints[index].classList.add("dot_selected")
 		img.src = "./assets/images/slideshow/" + slides[index].image;
-		tag.textContent = slides[index].tagLine;
+		tag.innerHTML = slides[index].tagLine;
 		
 	})
 }
@@ -72,7 +72,7 @@ function cliqueGauche() {
 		}
 		tableauPoints[index].classList.add("dot_selected")
 		img.src = "./assets/images/slideshow/" + slides[index].image;
-		tag.textContent = slides[index].tagLine;
+		tag.innerHTML = slides[index].tagLine;
 		
 	})
 }
